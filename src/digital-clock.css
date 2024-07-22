@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('digital-clock-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.app-container{
+    border:1px solid rgb(58, 4, 74);
+    width: 380px;
+    text-align: center;
+    margin: 150px auto;
+}
+.app-head{
+border-bottom:1px solid rgb(58, 4, 74) ;
+background: rgb(58, 4, 74);
+color: #ffff;
+padding: 5px;
+}
+.app-body{
+    background: rgb(241, 240, 240);
+}
+
+.digi-clk{
+    border: 1px solid black;
+    background: black;
+    color: #ffff;
+}
+.digi-clk h1{
+    width: 300px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 10px solid chartreuse;
+}
